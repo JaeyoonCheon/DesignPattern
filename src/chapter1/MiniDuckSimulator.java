@@ -1,5 +1,7 @@
+package chapter1;
+
 public class MiniDuckSimulator {
-    public static void main(String[] args) {
+    public static void run() {
         Duck mallard = new MallardDuck();
 
         mallard.performQuack();
@@ -11,4 +13,3 @@ public class MiniDuckSimulator {
         model.performFly();
     }
 }
-

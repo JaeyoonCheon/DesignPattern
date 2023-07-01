@@ -1,3 +1,5 @@
+package chapter1;
+
 public class MallardDuck extends Duck {
     // 전략(Strategy) 패턴!
     public MallardDuck() {
@@ -6,6 +8,6 @@ public class MallardDuck extends Duck {
     }
 
     public void display() {
-        System.out.println("Mallard Duck!");
+        System.out.println("Mallard chapter1.Duck!");
     }
 }
